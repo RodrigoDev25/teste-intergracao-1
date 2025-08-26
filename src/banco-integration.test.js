@@ -41,7 +41,7 @@ test("Deve verificar se o nome é admin", () => {
 });
 
 test("Deve verificar se a idade é menor que 18", () => {
-  const teste = bancoService.createAccount("Rodrigo", 17);
+  const teste = bancoService.createAccount("Rodrigo", 17, 17);
   expect(teste).toBe('idade mínima é 18 anos'); 
 });
 
